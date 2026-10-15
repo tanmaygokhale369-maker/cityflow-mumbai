@@ -1,0 +1,16 @@
+sources:
+  mumbai_gtfs:
+    type: static_gtfs
+    url: https://github.com/croyla/mumbai-gtfs
+    access: free download; inspect repository license and feed dates
+    live: false
+  open_meteo:
+    type: weather_api
+    url: https://api.open-meteo.com/v1/forecast
+    access: free non-commercial use; no API key; attribution required
+    live: true
+  openaq:
+    type: air_quality_api
+    url: https://docs.openaq.org/
+    access: free API key required; verify Mumbai station coverage and limits
+    live: optional
